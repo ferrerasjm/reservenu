@@ -1,0 +1,32 @@
+# Dependencies installed with Composer
+/vendor/
+
+# Local credentials, tokens, and environment settings
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+*.local.php
+*.pem
+*.key
+*.p12
+*.pfx
+
+# User uploads and database exports
+/uploads/*
+!/uploads/.gitkeep
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+
+# Local tools and generated files
+/.agents/
+/.codex/
+/.aws/
+/.idea/
+/.vscode/
+*.log
+.DS_Store
+Thumbs.db
